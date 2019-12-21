@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnList1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List 1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnList2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="List 2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnList3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="List 3" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/atvCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnList2"
+        android:layout_marginTop="10dp"
+        android:gravity="center" />
+</RelativeLayout>
